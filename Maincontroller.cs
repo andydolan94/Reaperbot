@@ -1,6 +1,7 @@
 ﻿using Discord;
 using Discord.Commands;
 using Discord.Audio;
+
 using Reaperbot.BotCommands;
 
 using System;
@@ -49,11 +50,12 @@ namespace Reaperbot
             BotCommand purge = new Purge();
             BotCommand greet = new Greet();
             BotCommand speak = new Speak();
+            BotCommand paperScissorsRock = new PaperScissorsRock();
 
             // The connection - Requires a token to access the account
             discord.ExecuteAndWait(async () =>
             {
-                await discord.Connect(  "MjM5NjYzODAxMTQ0ODM2MDk2.Cu8IPw.pONOxbT3zebgvOFo0b8FgAxZRbc",
+            await discord.Connect(      System.Configuration.ConfigurationManager.AppSettings["reaperbot_api_key"],
                                         TokenType.Bot);
             });
         }
