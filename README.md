@@ -2,7 +2,6 @@
 Reaperbot is a Discord bot written in C# using the unofficial [Discord.Net wrapper](https://github.com/RogueException/Discord.Net). It demonstrates the basic functionality of a common bot in the form of the Overwatch character [Reaper](https://playoverwatch.com/en-us/heroes/reaper/).
 
 ## System Prerequisites
-Currently, he does not come in a properly distributed .exe form as of yet. For this reason you will require...
 - Windows 7 or Greater
 - [Discord](https://discordapp.com)
 - [Microsoft Visual Studio 2015 with Update 3](https://go.microsoft.com/fwlink/?LinkId=691129) (including C#/.NET during installation)
