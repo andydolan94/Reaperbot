@@ -1,13 +1,13 @@
 # Reaperbot: The edgy discord bot
 Reaperbot is a Discord bot written in C# using the unofficial [Discord.Net wrapper](https://github.com/RogueException/Discord.Net). It demonstrates the basic functionality of a common bot in the form of the Overwatch character [Reaper](https://playoverwatch.com/en-us/heroes/reaper/).
 
-### System Prerequisites
+## System Prerequisites
 Currently, he does not come in a properly distributed .exe form as of yet. For this reason you will require...
 - Windows 7 or Greater
 - [Discord](https://discordapp.com)
 - [Microsoft Visual Studio 2015 with Update 3](https://go.microsoft.com/fwlink/?LinkId=691129) (including C#/.NET during installation)
 
-### How do I set him up?
+## How do I set him up?
 1. If you have not done so already, you will need to [register an account](https://discordapp.com/register) for yourself on Discord, **not for your bot**.
 
 2. Make sure you have a server that you manage on Discord. This is important as your bots can only join servers that you manage.
@@ -18,7 +18,15 @@ Currently, he does not come in a properly distributed .exe form as of yet. For t
 
 5. Next you will want to navigate to this address with your bot's client ID in the URL. https://discordapp.com/api/oauth2/authorize?client_id=CLIENT_ID_GOES_HERE&scope=bot&permissions=0. From there you should be able to join a server that you manage. After this step, you should be able to see your bot as an offline user.
 
-6. 
+6. You will then need to Navigate to Reaperbot's directory (i.e this). You should be able to see a file named "AppExample.config"; make a copy of this file and name it "App.config". Once copied, edit it and place the bot token you saved earlier in where it says "bot_token". Save and exit.
 
+7. Open Reaperbot.sln, build and run it. If all is successful, the command window should display the name of the server it has been added to.
 
-### Third Tier Heading?
+## What cool tricks can he do?
+
+### !hello
+### !quote
+### !reap
+### !paperscissorsrock, !paper, !scissors and !rock
+### !speak
+### !purge
