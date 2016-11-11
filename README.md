@@ -4,7 +4,7 @@ Reaperbot is a Discord bot written in C# using the unofficial [Discord.Net wrapp
 ## System Prerequisites
 - Windows 7 or Greater
 - [Discord](https://discordapp.com)
-- [Microsoft Visual Studio 2015 with Update 3](https://go.microsoft.com/fwlink/?LinkId=691129) (including C#/.NET during installation)
+- The latest version of [Microsoft Visual Studio](https://www.visualstudio.com) (including C#/.NET during installation)
 
 ## How do I set him up?
 1. If you have not done so already, you will need to [register an account](https://discordapp.com/register) for yourself on Discord, **not for your bot**.
@@ -22,10 +22,22 @@ Reaperbot is a Discord bot written in C# using the unofficial [Discord.Net wrapp
 7. Open Reaperbot.sln, build and run it. If all is successful, the command window should display the name of the server it has been added to.
 
 ## What cool tricks can he do?
+These commands can simply be entered into a text channel.
 
-### !hello
-### !quote
-### !reap
-### !paperscissorsrock, !paper, !scissors and !rock
-### !speak
-### !purge
+#### !hello
+Say hello to Reaperbot. _He's quite polite in this instance._
+
+#### !quote
+When commanded, Reaperbot will quote one of his edgy voice.
+
+#### !reap
+Displays a random image of himself _doin' his thing._
+
+#### !paperscissorsrock, !paper, !scissors and !rock
+Play a game of paper, scissors, rock with Reaperbot. Be warned, he doesn't play fair.
+
+#### !speak
+Whilst connnected in a voice channel, you can summon Reaperbot to speak one of his voice lines.
+
+#### !purge
+Reaperbot will delete the last 100 messages in a text channel.
